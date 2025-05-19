@@ -5,7 +5,8 @@ import time
 import json
 
 # ===== ネットワーク設定 =====
-HOST = '100.125.131.3'  # 受信側（Ubuntu）の Tailscale IP に書き換え
+# HOST = '100.125.131.3' # 受信側（Ubuntu, NGSH）の Tailscale IP に書き換え
+HOST = '100.98.176.71' # 受信側（Ubuntu, MRKN）の Tailscale IP に書き換え
 PORT = 5000
 
 # ===== Pygame & ジョイスティック初期化 =====
